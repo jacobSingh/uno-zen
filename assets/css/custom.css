@@ -1,0 +1,10 @@
+
+#post-content .kg-image {
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+article.post #post-image {
+    max-height: 600px
+}
