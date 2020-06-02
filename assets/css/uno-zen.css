@@ -18,3 +18,7 @@
 article.post #post-image {
     max-height: 600px
 }
+
+li.nav-current {
+    margin: 5px 5px;
+}
