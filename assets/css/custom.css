@@ -9,6 +9,6 @@ article.post #post-image {
     max-height: 600px
 }
 
-li.nav-current {
+.navigation.left .links > li.expanded {
     margin: 5px 5px;
 }
