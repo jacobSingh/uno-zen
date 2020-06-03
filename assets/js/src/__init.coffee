@@ -38,8 +38,10 @@ do ->
         postDate = $(this).html()
         postDateInDays = Math.floor((Date.now() - new Date(postDate)) / 86400000)
 
+        # @todo: This is terrible to reuse variables with different types
         if postDateInDays is 0 then postDateInDays = 'today'
         else if postDateInDays is 1 then postDateInDays = 'yesterday'
+        else if postDateInDays > 90 then postDateInDays = postDate
         else postDateInDays = "#{postDateInDays} days ago"
 
         $(this).html(postDateInDays)
