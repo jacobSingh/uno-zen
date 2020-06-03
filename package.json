@@ -53,6 +53,6 @@
     "proxy": "http://127.0.0.1:2387"
   },
   "config": {
-    "posts_per_page": 7
+    "posts_per_page": 20
   }
 }
